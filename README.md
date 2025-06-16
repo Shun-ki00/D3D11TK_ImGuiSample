@@ -14,13 +14,6 @@ Dear ImGui の導入・描画手順を最小構成で確認できるよう設計
 - 背景色の動的変更、ボタン操作などの例を含む
 - FPS 表示付きでパフォーマンス確認も可能
 
-## 使用ライブラリ
-
-| ライブラリ名     | 用途                                           |
-|------------------|------------------------------------------------|
-| **DirectX 11**   | グラフィックス描画API                          |
-| **Dear ImGui**   | GUI表示                      |
-
 ## スクリーンショット
 
 ![スクリーンショット 2025-06-02 122510](https://github.com/user-attachments/assets/b9dbf4d0-e947-495b-b015-6223f92117d1)
@@ -53,3 +46,16 @@ ImGui を Visual Studio プロジェクトに導入する際、以下の設定�
 - `imgui_widgets.cpp`  
 - `imgui_impl_dx11.cpp`  
 - `imgui_impl_win32.cpp`
+
+## 動作環境
+・OS：Windows 10 / 11  
+・GPU : Direct3D 11対応グラフィックカード  
+・開発環境：Visual Studio 2022  
+・ビルド対象：x64  
+
+## 使用ライブラリ
+・Direct3D 11  
+・DirectXTK  
+・Windows SDK  
+・Dear ImGui  
+
